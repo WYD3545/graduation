@@ -1,0 +1,3 @@
+<template name="footer">
+  <view class="footer">XXX提供技术支持</view>
+</template>
