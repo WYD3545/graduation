@@ -1,0 +1,14 @@
+<import src="../template/template.wxml"/>
+
+<view class="container">
+  <image class="logo" src="/images/img1.jpeg" mode="widthFix"></image>
+  <view class='content'>
+    <input placeholder="账号" bindinput="onInput" data-val="account"/>
+    <input placeholder="密码" type="password" bindinput="onInput" data-val="password"/>
+    <input placeholder="确认密码"/>
+    <button type="primary">注册</button>
+    <view class="register">已有账号?<navigator url="../login/login">去登录</navigator></view>
+    
+  </view>
+  <template is="footer" data=""/>
+</view>

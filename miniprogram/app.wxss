@@ -1,0 +1,48 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+/* pages/login/login.wxss */
+.logo{
+  margin-top:20rpx;
+  width:350rpx;
+  border-radius: 50%;
+  border: 1.5px solid #cccccc;
+  margin-bottom:120rpx;
+}
+.content{
+  width:80%;
+}
+button:nth-of-type(2){
+  margin-top: 20rpx;
+}
+input{
+  border:1px solid #cccccc;
+  margin-bottom:40rpx;
+  padding:20rpx;
+  border-radius: 15rpx;
+}
+.register{
+  font-size:25rpx;
+  text-align: right;
+  margin-right: 10rpx;
+  margin-top:20rpx;
+}
+navigator{
+  display: inline;
+  color:#007aff;
+}
+.footer{
+  position: absolute;
+  bottom:100rpx;
+  font-size: 25rpx;
+  text-align: center;
+  width:100%;
+}
+
+
+
+

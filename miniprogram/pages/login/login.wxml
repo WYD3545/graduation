@@ -1,0 +1,14 @@
+<import src="../template/template.wxml"/>
+
+<view class="container">
+  <image class="logo" src="/images/img1.jpeg" mode="widthFix"></image>
+  <view class='content'>
+    <input placeholder="账号" bindinput="onInput" data-val="account"/>
+    <input placeholder="密码" password bindinput="onInput" data-val="password"/>
+    <button type="primary" bind:tap='onLogin'>登录</button>
+    <button>微信一键登录</button>
+    <view class="register">没有账号?<navigator url="../register/register">去注册</navigator></view>
+    
+  </view>
+  <template is="footer" data=""/>
+</view>
